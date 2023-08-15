@@ -8,11 +8,11 @@ This document provides an overview of the backend API endpoints and their usage 
 1. Clone the repository to your local machine:
 
    ```bash
-   git clone https://github.com/your-username/your-repo.git
+   git clone https://github.com/kashishkkhatri/GroupManagement-API.git
 2. Navigate to the project directory:
 
     ```bash
-    cd your-repo
+    cd GroupManagement-API
 
 3. Install Composer dependencies:
     
