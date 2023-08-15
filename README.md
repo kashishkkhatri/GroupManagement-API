@@ -8,16 +8,31 @@ This document provides an overview of the backend API endpoints and their usage 
 1. Clone the repository to your local machine:
 
    ```bash
-   git clone https://github.com/kashishkkhatri/GroupManagement-API.git
+   git clone https://github.com/your-username/your-repo.git
 2. Navigate to the project directory:
 
     ```bash
-    cd GroupManagement-API
+    cd your-repo
 
 3. Install Composer dependencies:
     
     ```bash
     composer install
+4. Copy the .env.example file to .env:
+    ```bash
+    cp .env.example .env
+5. Set up your database connection: (You will need to create a new database in mySQL and update the env vars to access that created database.)    <br /><br />Example:
+    <br />
+DB_CONNECTION=mysql<br />
+DB_HOST=127.0.0.1<br />
+DB_PORT=3306<br />
+DB_DATABASE=group_management_system<br />
+DB_USERNAME=root<br />
+DB_PASSWORD=<br />
+6. Update API keys, and any other required settings.
+Generate the application key:
+    ```bash
+    php artisan key:generate
 6. Run database migrations to create the necessary tables:
      ```bash
     php artisan migrate
